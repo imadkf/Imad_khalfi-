@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #1e272e;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 120px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    background-color: #485460;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #2f3640;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.player {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+}
+
+.player img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px gray;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #dcdde1;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0097e6;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.qrcode {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    z-index: 1000;
+}
+
+
+footer {
+    background-color: #2f3640;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#copyright {
+    color: yellow;
+    font-weight: bold;
+}
+
+.legends {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.legend {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 8px gray;
+}
+
+.legend img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.legend p {
+    font-weight: bold;
+    margin-top: 10px;
+}
